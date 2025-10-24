@@ -47,3 +47,24 @@ The pipeline includes **preprocessing, segmentation, feature extraction, and hyb
    ```bash
    git clone https://github.com/<your-username>/BrainTumorDetection.git
    cd BrainTumorDetection
+
+## README — How to run locally
+
+1. Install backend dependencies (recommended inside a venv):
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate # on windows: venv\Scripts\activate
+pip install flask pillow numpy
+python app.py
+```
+
+2. Install frontend and run
+
+```bash
+cd frontend # where package.json is
+npm install
+npm start
+```
+
